@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="css/bootstrap-4.4.1.css">
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="https://use.typekit.net/ian5mca.css">
+  <!--Custom CSS-->
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/image-grid.css">
 
 </head>
 <body>
@@ -36,10 +38,59 @@
   </nav>
 
   <!--Portfolio Grid-->
-  <div class="container mt-2">
+  <div class="container mt-5">
     <div class="row">
       <div class="col-12 text-center">
         <h2>Portfolio</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row" id="gallerygrid">
+      <div class="column"> 
+		  <img class="myImg" src="#" alt="Atlas GE U30C, as the Reading #6302" > 
+		  <img class="myImg" src="#" alt="Kato SD40R as Conrail #6972"> 
+		  <img class="myImg" src="#" alt="Walthers Penn Central Gondola #598212"> 
+		  <img class="myImg" src="#" alt="Kato Penn Central SD40 #6065, custom painted and weathered"> 
+		  <img class="myImg" src="#" alt="Kato Penn Central SD40 #6080, custom painted and weathered"> 
+		</div>
+      <div class="column"> 
+		  <img class="myImg" src="#" alt="Kato EMD C&amp;O SD40 #7497, Custom Painted"> 
+		  <img class="myImg" src="#" alt="Bowser PRR class G39B ore 'Jennie' CR #502269, weathered by our shop"> 
+		  <img class="myImg" src="#" alt="Kato RDG GP35 #3644, custom painted, weathered &amp detailed"> 
+		  <img class="myImg" src="#" alt="Bowser PRR Class G39A ore 'Jennie' CR #502476, weathered by our shop."> 
+		  <img class="myImg" src="#" alt="Atlas TM CR GP38-2 #8208 custom painted, weathered &amp detailed. In the Operation Lifesaver scheme"> 
+		</div>
+      <div class="column"> 
+		  <img class="myImg" src="#" alt="Scaletrains Santa Fe GE c44-9W #607 weathered in the shop."> 
+		  <img class="myImg" src="#" alt="Scaletrains CR Q PS-2CD 4785cf #889436. Restored stirrup upon purchase, and weathered in shop"> 
+		  <img class="myImg" src="#" alt="Scaletrains CR GE C39-8 #6013, weathered and conditioned."> 
+		  <img class="myImg" src="#" alt="Kato Philadelphia, Midvale &amp Atlantic (freelance) SD40-2 #6300. This was custom built, painted, and detailed by the shop."> 
+		  <img class="myImg" src="#" alt="Kato EMDGP #3915 & SD45 #1027 in a custom freelance scheme."> 
+		</div>
+      <div class="column">  
+		  <img class="myImg" src="#" alt="ExactRail P.S. 4427 cu.ft hopper SBGX (Scoular) #1209, weathered in the shop.">
+		  <img class="myImg" src="#" alt="P1K 50'CP Rail 50' newsprint boxcar #85446, with weathered detail."> 
+		  <img class="myImg" src="#" alt="KAto EMD SD40 CSX #4617 in the infamous tattered C&ampO paint scheme. Painted, weathed &amp detailed all in shop.">
+      <img class="myImg" src="#" alt="Rear truck weathering detail on RDG U30C #6302"> 
+      <img class="myImg" src="#" alt="Bowser RDG Alco #5308, the only C630 in existence, custom weathered">  
+		</div>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalImage">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-12 text-center">
+        <button type="button" class="btn btn-lg btn-dark">
+          <a href="comming-soon.html" class="text-white">See more!</a>
+        </button>
       </div>
     </div>
   </div>
